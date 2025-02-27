@@ -1,0 +1,70 @@
+         /* Configuração geral */
+         body {
+            font-family: Arial, sans-serif;
+            background-color: #006437; /* Verde Palmeiras */
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        /* Título */
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* Container da imagem */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        /* Logo do Palmeiras */
+        img {
+            width: 250px;
+            height: auto;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        /* Efeito de zoom na imagem ao passar o mouse */
+        img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Botão estilizado */
+        .button {
+            background-color: #00a859; /* Verde Palmeiras mais claro */
+            border: none;
+            border-radius: 25px;
+            width: 220px;
+            height: 60px;
+            color: white;
+            font-size: 1.2em;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            text-decoration: none;
+            position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Efeito ao passar o mouse no botão */
+        .button:hover {
+            background-color: #02874a;
+            transform: scale(1.05);
+        }
+
